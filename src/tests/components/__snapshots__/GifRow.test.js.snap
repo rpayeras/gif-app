@@ -11,22 +11,3 @@ exports[`Testing GifGrid component it should renders properly 1`] = `
   />
 </Fragment>
 `;
-
-exports[`Testing GifGrid component should show items using useFetchGifs 1`] = `
-<Fragment>
-  <h3>
-    test
-  </h3>
-  <Component />
-  <div
-    className="card-grid "
-  >
-    <GifGridItem
-      id="ABC"
-      key="ABC"
-      title="test"
-      url="https://testing.com/test.jpg"
-    />
-  </div>
-</Fragment>
-`;

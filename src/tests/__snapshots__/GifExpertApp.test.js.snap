@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing main component should render properly 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    onSubmit={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Testing main component should show a list of categories 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    onSubmit={[Function]}
+  />
+  <hr />
+  <ol>
+    <li
+      className=""
+      key="category-0"
+    >
+      <GifRow
+        category="One punch"
+      />
+    </li>
+  </ol>
+</Fragment>
+`;
