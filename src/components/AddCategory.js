@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 
+
 export const AddCategory = ({onSubmit}) => {
     const [inputText, setInputText] = useState('')
 
-    const handleInput = (e) => setInputText(e.target.value);
+    const handleInput = (e) => {
+        setInputText(e.target.value);
+        
+        console.log('Input changed')
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
