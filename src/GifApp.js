@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifRow } from './components/GifRow';
 
-const GifExpertApp = ({ defaultCategories = []}) => {
+const GifApp = ({ defaultCategories = []}) => {
     const [categories, setCategory] = useState(defaultCategories)
     const onSubmitForm = value => setCategory([value, ...categories])
 
@@ -23,4 +23,4 @@ const GifExpertApp = ({ defaultCategories = []}) => {
 };
 
 
-export default GifExpertApp;
+export default GifApp;
