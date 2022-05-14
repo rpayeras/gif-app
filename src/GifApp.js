@@ -8,7 +8,7 @@ const GifApp = ({ defaultCategories = []}) => {
 
     return (
         <>
-            <h2>Gif Expert App</h2>
+            <h2>Gif App</h2>
             <AddCategory onSubmit={onSubmitForm}/>
             <hr />
             <ol>

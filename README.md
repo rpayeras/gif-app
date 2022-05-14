@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Change env parameters
 
 Put your giphy api key on .env
+
 ## Available Scripts
 
 In the project directory, you can run:
